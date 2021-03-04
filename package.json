@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server --baseDir public\" "
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
